@@ -1,0 +1,16 @@
+.products{
+  .category{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .windows{
+      max-width: 400px;
+      max-height: 400px;
+      mat-card{
+        img{
+          width:400px;
+        }
+      }
+    }
+  }
+}

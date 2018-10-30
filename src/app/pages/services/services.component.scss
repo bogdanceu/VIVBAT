@@ -1,0 +1,30 @@
+.services {
+  color:#1985e9;
+  font-size: 20px;
+  font-style: oblique;
+  h1{
+    color: #0c9cff;
+    text-align: center;
+  }
+  .services-image{
+    display: flex;
+    justify-content: center;
+
+  }
+  a{
+    img{
+      -webkit-box-shadow: 3px 2px 104px -17px rgba(13,153,247,1);
+      -moz-box-shadow: 3px 2px 104px -17px rgba(13,153,247,1);
+      box-shadow: 3px 2px 104px -17px rgba(13,153,247,1);
+      width: 100%;
+    }
+  }
+  p{
+    text-align: center;
+  }
+ul{
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
+
+}

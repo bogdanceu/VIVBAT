@@ -10,6 +10,7 @@ import {
   MatSelectModule,
   MatSortModule,
   MatTableModule,
+  MatCardModule,
 } from '@angular/material';
 import {CdkTableModule} from '@angular/cdk/table';
 
@@ -30,7 +31,8 @@ import {CdkTableModule} from '@angular/cdk/table';
     MatListModule,
     MatSelectModule,
     MatOptionModule,
-    MatGridListModule
+    MatGridListModule,
+    MatCardModule
   ],
   exports: [
     MatButtonModule,
@@ -46,7 +48,8 @@ import {CdkTableModule} from '@angular/cdk/table';
     MatListModule,
     MatSelectModule,
     MatOptionModule,
-    MatGridListModule
+    MatGridListModule,
+    MatCardModule
   ],
   declarations: [],
 })

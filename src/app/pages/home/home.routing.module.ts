@@ -25,6 +25,12 @@ const HomeRoutes: Routes = [
 
 
       },
+      {
+        path: 'contact',
+        loadChildren: '../contact/contact.module#ContactModule',
+
+
+      },
     ]
   },
 ];
