@@ -36,8 +36,43 @@
 }
 
 
-@media screen and (max-width: 1035px) {
-  .nav-container {
-    width: auto;
+@media screen and (max-width: 640px) {
+  .nav-wrapper {
+    min-height: 100%;
+    width: 100%;
   }
+
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: left;
+    a {
+      width: 100px;
+    }
+    margin-left: 0;
+    border-bottom: none;
+    padding: 0 8px;
+  }
+  .nav-container {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    min-height: 100px;
+  }
+  .logo {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 10px;
+    border-bottom: none;
+  }
+  mat-list-item {
+    width: 100px;
+  }
+  .mat-nav-list .mat-list-item.mat-list-item-with-avatar {
+    height: 35px;
+    font-size: 12px;
+  }
+
 }
