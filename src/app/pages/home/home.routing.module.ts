@@ -31,6 +31,12 @@ const HomeRoutes: Routes = [
 
 
       },
+      {
+        path: 'team',
+        loadChildren: '../team/team.module#TeamModule',
+
+
+      },
     ]
   },
 ];
