@@ -36,7 +36,7 @@
 }
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 550px) {
   .nav-wrapper {
     min-height: 100%;
     width: 100%;
@@ -56,13 +56,13 @@
   }
   .nav-container {
     width: 100%;
-    height: 130px;
+    height: 90px;
     display: flex;
     min-height: 100px;
   }
   .logo {
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: 0px;
     margin-left: 10px;
     border-bottom: none;

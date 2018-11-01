@@ -1,16 +1,141 @@
 .products{
+  h1{
+    color: #0c9cff;
+    text-align: center;
+    margin-bottom: 40px;
+  }
   .category{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    .windows{
-      max-width: 400px;
-      max-height: 400px;
-      mat-card{
-        img{
-          width:400px;
-        }
+      display:flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+    .window{
+      width:40%;
+      height:700px;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      .image{
+        background-image: url("../../../assets/images/poza16mini.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 20%;
+        width:100%;
+        height:50%;
       }
+      .text{
+        padding-top: 10px;
+        width:80%;
+        height:50%;
+        color: #0c9cff;
+      }
+    }
+    .aluminium{
+      width:40%;
+      height:700px;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      .image{
+        background-image: url("../../../assets/images/aluminiu1.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 20%;
+        width:100%;
+        height:50%;
+      }
+      .text{
+        padding-top: 10px;
+        width:80%;
+        height:50%;
+        color: #0c9cff;
+      }
+    }
+    .garage {
+      width:40%;
+      height:700px;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      .image{
+        background-image: url("../../../assets/images/poza5mini.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 20%;
+        width:100%;
+        height:50%;
+      }
+      .text{
+        padding-top: 10px;
+        width:80%;
+        height:50%;
+        color: #0c9cff;
+      }
+    }
+    .velux {
+      width:40%;
+      height:700px;
+      .image{
+        background-image: url("../../../assets/images/velux.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 20%;
+        width:100%;
+        height:50%;
+      }
+      .text {
+        padding-top: 10px;
+        width: 100%;
+        text-align: center;
+        height: 50%;
+        color: #0c9cff;
+      }
+    }
+    .pvc {
+      width:40%;
+      height:700px;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      .image{
+        background-image: url("../../../assets/images/rehau1mini.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 20%;
+        width:100%;
+        height:50%;
+      }
+      .text{
+        padding-top: 10px;
+        width:80%;
+        height:50%;
+        color: #0c9cff;
+      }
+    }
+  }
+}
+@media screen and (max-width: 550px) {
+  .products{
+    .category{
+      .window {
+        width: 80%;
+      }
+      .velux{
+        width:80%;
+
+      }
+      .pvc {
+        width: 80%;
+      }
+      .aluminium{
+        width:80%;
+
+      }
+      .garage{
+        width:80%;
+
+      }
+
     }
   }
 }

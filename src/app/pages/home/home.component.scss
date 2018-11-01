@@ -18,7 +18,7 @@
   min-height: 100%;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 550px) {
   .container-main {
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@
     margin: auto;
   }
   .container-nav {
-    height: 130px;
+    height: 110px;
     background: #0c9cff; /* Old browsers */
     background: -moz-linear-gradient(45deg, #19caff 0%, #127cea 50%, #19caff 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(45deg,#19caff 0%, #127cea 50%, #19caff 100%); /* Chrome10-25,Safari5.1-6 */
