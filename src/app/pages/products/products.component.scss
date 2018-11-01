@@ -2,7 +2,7 @@
   h1{
     color: #0c9cff;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
   }
   .category{
       display:flex;
@@ -11,7 +11,7 @@
       justify-content: space-around;
     .window{
       width:40%;
-      height:700px;
+      height:800px;
       display:flex;
       flex-direction: column;
       align-items: center;
@@ -32,7 +32,7 @@
     }
     .aluminium{
       width:40%;
-      height:700px;
+      height:800px;
       display:flex;
       flex-direction: column;
       align-items: center;
@@ -53,7 +53,7 @@
     }
     .garage {
       width:40%;
-      height:700px;
+      height:800px;
       display:flex;
       flex-direction: column;
       align-items: center;
@@ -74,7 +74,7 @@
     }
     .velux {
       width:40%;
-      height:700px;
+      height:800px;
       .image{
         background-image: url("../../../assets/images/velux.jpg");
         background-position: center;
@@ -93,7 +93,7 @@
     }
     .pvc {
       width:40%;
-      height:700px;
+      height:800px;
       display:flex;
       flex-direction: column;
       align-items: center;
@@ -114,26 +114,94 @@
     }
   }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 975px) {
+  .products{
+    .category{
+      .window{
+        height:1000px;
+        .image{
+          height:25%;
+        }
+        .text{
+          height:70%;
+        }
+      }
+      .garage{
+        height:1000px;
+        .image{
+          height:25%;
+        }
+        .text{
+          height:70%;
+        }
+      }
+      .pvc{
+        height:1000px;
+        .image{
+          height:25%;
+        }
+        .text{
+          height:70%;
+        }
+      }
+      .aluminium{
+        height:1000px;
+        .image{
+          height:25%;
+        }
+        .text{
+          height:70%;
+        }
+      }
+      .velux{
+        height:1000px;
+        .image{
+          height:25%;
+        }
+        .text{
+          height:70%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 670px) {
   .products{
     .category{
       .window {
         width: 80%;
+        height:850px;
+        .image{
+          height:40%;
+        }
       }
       .velux{
         width:80%;
-
+        height:800px;
+        .image{
+          height:40%;
+        }
       }
       .pvc {
         width: 80%;
+        height:800px;
+        .image{
+          height:40%;
+        }
       }
       .aluminium{
         width:80%;
-
+        height:800px;
+        .image{
+          height:40%;
+        }
       }
       .garage{
         width:80%;
-
+        height:800px;
+        .image{
+          height:40%;
+        }
       }
 
     }
