@@ -9,6 +9,7 @@ import {AngularFireModule} from "@angular/fire";
 import {AngularFirestoreModule} from "@angular/fire/firestore";
 import {FormsModule} from "@angular/forms";
 import {environment} from "../environments/environment.prod";
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import {environment} from "../environments/environment.prod";
     FormsModule,
     MainModule,
     AppRoutingModule,
+    CarouselModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
